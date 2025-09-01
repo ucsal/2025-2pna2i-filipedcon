@@ -9,9 +9,3 @@ public class Main {
 	}
 }
 
-//OfficeService.printReport() chama scan() desnecessariamente. SimplePrinter não suporta 
-//e lança UnsupportedOperationException.
-//O teste espera não lançar. Inicialmente, falha.
-//Tarefa
-//
-//    Segregar interfaces (Printer, Scanner) e garantir que printReport use apenas Printer.
